@@ -41,6 +41,11 @@
     margin-bottom: 50px;
 }
 
+.hero-action a {
+    text-decoration: none;
+    color: white;
+}
+
 .hero-connect{
     padding: 25px 45px;
     border-radius: 50px;

@@ -11,7 +11,7 @@ const Hero = () => {
       <p>I am beginning my career in the coding space with education from UC Berkeley Extention in frontend and backend web development</p>
       <div className="hero-action">
         <div className="hero-connect"><AnchorLink className="anchor-link" offset={50} href="#contact">Connect with Me</AnchorLink></div>
-        <div className="hero-resume">My Resume</div>
+        <a href="\src\assets\Professional-Resume.pdf" download><div className="hero-resume">My Resume</div></a>
       </div>
     </div>
   )

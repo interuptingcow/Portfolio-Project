@@ -16,6 +16,10 @@
     max-width: 400px;
 }
 
+.footer-top-left img{
+    width: 400px
+}
+
 .footer-top-right {
     display: flex;
     align-items: center;
@@ -61,6 +65,11 @@
     display: flex;
     gap: 50px;
     margin-bottom: 50px;
+}
+
+.footer-bottom-right a {
+    text-decoration: none;
+    color: white;
 }
 
 .footer-email-input:hover {

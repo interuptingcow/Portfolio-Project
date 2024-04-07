@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Contact.css"
-import theme_pattern from "../../assets/theme_pattern.svg"
+import theme_pattern from "../../assets/Nick_slash_logo.png"
 import mail_icon from "../../assets/mail_icon.svg"
 import location_icon from "../../assets/location_icon.svg"
 import call_icon from "../../assets/call_icon.svg"
@@ -27,6 +27,7 @@ const Contact = () => {
     
         if (res.success) {
           alert(res.message);
+          event.target.reset();
         }
       };
 
@@ -54,11 +55,11 @@ const Contact = () => {
                 </div>
                 <form onSubmit={onSubmit} className="contact-right">
                     <label htmlFor="">Your Name</label>
-                    <input type="text" placeholder="Enter your name" name='name' />
+                    <input type="text" placeholder="Enter your name" name='name' required minlength="3" maxlength="25"/>
                     <label htmlFor="">Your Email</label>
-                    <input type='email' placeholder="Enter your email" name='email' />
+                    <input type='email' placeholder="Enter your email" name='email' required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" minlength="5" maxlength="50"/>
                     <label htmlFor="">Write your message here</label>
-                    <textarea name="message" rows="8" placeholder="Enter your message"></textarea>
+                    <textarea name="message" rows="8" placeholder="Enter your message" minlength="10" maxlength="500" required></textarea>
                     <button type='submit' className="contact-submit">Submit</button>
                 </form>
             </div>

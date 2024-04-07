@@ -1,6 +1,6 @@
 .about {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 80px;
@@ -19,8 +19,8 @@
 
 .about-title img {
     position: absolute;
-    bottom: 0;
-    right: 0;
+    top: -80px;
+    left: -30px;
     z-index: -1;
 }
 
@@ -69,7 +69,7 @@
     width: 50%;
     height: 8px;
     border-radius: 50px;
-    background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%)
+    background: linear-gradient(264deg, #eb0404 -5.09%, #1519ff 106.28%)
 }
 
 .about-skill:hover {
@@ -83,31 +83,39 @@
         margin: 50px 70px;
         align-items: start;
     }
-    .about-title h1{
+
+    .about-title h1 {
         font-size: 50px;
         padding: 0%;
     }
+
     .about-title img {
         width: 130px;
         right: -20px;
     }
+
     .about-sections {
         flex-direction: column;
     }
+
     .about-left {
         display: none;
     }
+
     .about-para {
         font-size: 18px;
         line-height: 32px;
     }
+
     .about-skill {
         gap: 20px;
         align-items: center;
     }
+
     .about-skill p {
         font-size: 20px;
     }
+
     .about-skill hr {
         height: 6px;
     }

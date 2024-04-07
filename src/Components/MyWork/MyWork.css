@@ -19,8 +19,8 @@
 
 .mywork-title img {
     position: absolute;
-    bottom: 0;
-    right: 0;
+    top: -80px;
+    left: -37px;
     z-index: -1;
 }
 
@@ -56,6 +56,12 @@
     margin-bottom: 80px;
     transition: .3s;
     border-radius: 50px;
+}
+.mywork-showmore a {
+    display: flex;
+    gap: 25px;
+    text-decoration: none;
+    color: white;
 }
 
 .mywork-showmore:hover {

@@ -5,6 +5,9 @@
     margin: 20px 170px;
 
 } 
+.navbar img {
+    width:250px;
+}
 
  .nav-menu {
     display: flex;
@@ -37,6 +40,7 @@
 .nav-menu li img {
     display: flex;
     margin: auto;
+    width:85px;
 
 }
 

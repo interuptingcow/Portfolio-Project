@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Footer.css"
-import footer_logo from "../../assets/footer_logo.svg"
+import footer_logo from "../../assets/Nick_logo.png"
 import user_icon from "../../assets/user_icon.svg"
 const Footer = () => {
     return (
@@ -11,20 +11,16 @@ const Footer = () => {
                     <p>I am a freshman fullstack developer from the USA looking for full time remote work in the USA and abroad</p>
                 </div>
                 <div className="footer-top-right">
-                    <div className="footer-email-input">
-                        <img src={user_icon} alt="" />
-                        <input type="email" placeholder='Enter your email' />
-                    </div>
-                    <div className="footer-subscribe">Subscribe</div>
+
                 </div>
             </div>
             <hr />
             <div className="footer-bottom">
                 <p className="footer-bottom-left">© 2024 Nicholas Padovese. All Rights Reserved</p>
                 <div className="footer-bottom-right">
-                    <p>Terms of Service</p>
-                    <p>Privacy Policy</p>
-                    <p>Connect with me</p>
+                    <a href="https://www.linkedin.com/in/nicholas-padovese-97a546a/"><p>LinkedIn</p></a>
+                    <a href="https://github.com/interuptingcow"><p>Github</p></a>
+                    <a href="https://stackoverflow.com/users/24085152/nick-padovese"><p>Stack Overflow</p></a>
                 </div>
             </div>
         </div>
